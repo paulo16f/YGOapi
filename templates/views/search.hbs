@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Search</title>
+     <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+    <div class="main-page">
+        {{>header}}
+        
+        
+        
+        <form>
+            <input placeholder="Card name">
+            <button onclick="showPicture(image)">Search</button>
+        </form>
+        <p id="errormessage"></p>
+        <p id="loading"></p>
+        <p id="cName"></p>
+        <p id="cType"></p>
+        <p id="cLevel"></p>
+        <p id="cAtk"></p>
+        <p id="cDef"></p>
+        <p id="cRace"></p>
+        
+        <script src="/js/S.js"></script>
+        <img id="image" src="url" style="display:none;" >
+
+    </div>
+
+   {{>footer}}
+   
+</body>
+
+</html>
